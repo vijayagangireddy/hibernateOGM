@@ -22,6 +22,7 @@ public class DataInsertMain {
 		/* Line 4 */employee.setName("Yogesh");
 
 		/* Line 5 */ em.getTransaction().begin();
+						
 		/* Line 6 */ em.persist(employee);
 		/* Line 7 */ em.getTransaction().commit();
 		/* Line 8 */ em.close();
